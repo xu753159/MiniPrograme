@@ -1,2 +1,5 @@
 <!--pages/about/about.wxml-->
 <text>hello World</text>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    知识点2
+</view>
