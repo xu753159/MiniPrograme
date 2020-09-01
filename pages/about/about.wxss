@@ -1,0 +1,11 @@
+/* pages/about/about.wxss */
+text{
+        color: blue;
+        display: block;
+        background: #000;
+        width: 100px;
+        margin:auto;
+        height: 150px;
+        padding: 20px 12px;
+        text-align: left;
+}
