@@ -1,11 +1,27 @@
 // pages/home/home.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    name:'Hello World',
+    movie:[
+      {id:110,name:'xx1',age:12},
+      {id:110,name:'xx2',age:12},
+      {id:110,name:'xx3',age:15}
+    ],
+    container:0
+  },
+  handleButtonAdd(){
+    // console.log("按钮发生了点击")
+    this.setData({
+      container:this.data.container+1
+    })
+  },
+  handleButtonReduce(){
+    this.setData({
+      container:this.data.container-1
+    })
   },
 
   /**

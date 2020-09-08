@@ -1,2 +1,13 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<text>{{name}}</text>
+<text class="" user-select ="false" space="false" decode="false">
+    哈哈哈哈哈哈{{name+"28"}}
+</text>
+<view class="" hover-class="none" hover-stop-propagation="false" wx:for="{{movie}}">
+    {{item.name}}+{{item.age}}+{{item.id}}
+</view>
+<text class="" selectable="false" space="false" decode="false">
+    {{container}}
+</text>
+<button size="mini" bindtap="handleButtonAdd">+</button>
+<button size="mini" bindtap="handleButtonReduce">-</button>
